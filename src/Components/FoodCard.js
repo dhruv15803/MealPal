@@ -2,6 +2,9 @@ import React from "react";
 import { ToastContainer } from 'react-toastify';
 
 const FoodCard = (props) => {
+
+    const [showDesc,setShowDesc] = useState(false);
+
   return (
     <>
       <div className="item-card">

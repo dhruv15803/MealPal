@@ -7,7 +7,7 @@ const Navbar = (props) => {
     <>
     <nav id="navbar">
         <div id="navLeft">
-            <img src={logo} alt="" />
+            <Link to='/'><img src={logo} alt="" /></Link>
         </div>
         <ul className="nav-links">
             <Link to='/'><div><li>All</li></div></Link>
